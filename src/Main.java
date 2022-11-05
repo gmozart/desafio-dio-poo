@@ -39,13 +39,15 @@ public class Main {
         System.out.println(" Conteúdo inscrito pela Dev Felipa: "+devFelipa.getConteudosInscritos());
         devFelipa.progredir();
         System.out.println(" Conteúdo concluído pela Dev Felipa: "+devFelipa.getConteudosConcluidos());
+        System.out.println("Total XP: "+devFelipa.totalXp());
 
-        System.out.println("");
+        System.out.println("---------------------------------------------------------------------");
         Dev devTayson = new Dev();
         devTayson.setNome("Tayson freitas");
         devTayson.inscreverBootCamp(bootCamp);
         System.out.println(" Conteúdo inscrito pelo Dev Tayson: "+devTayson.getConteudosInscritos());
         System.out.println(" Conteúdo concluído pela Dev Tayson: "+devTayson.getConteudosConcluidos());
+        System.out.println("Total XP: "+devTayson.totalXp());
 
 
 
